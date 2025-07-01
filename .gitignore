@@ -1,0 +1,13 @@
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Dossiers système
+.vagrant/
+
+# Dossiers des machines virtuelles VirtualBox
+*.vbox
+*.vdi
+
+# Dossiers de backup locaux
+backup/
