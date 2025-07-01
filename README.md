@@ -20,20 +20,13 @@
 ## 📂 Structure du projet
 
 backup-automation/
-│
 ├── .gitignore
 ├── README.md
 ├── Vagrantfile
-│
 ├── scripts/
 │ └── backup.sh
-│
-├── config/ # (vide pour l’instant)
-│ └── .gitkeep
-│
-└── docs/ # (vide pour l’instant)
-└── .gitkeep
-
+├── config/ # (vide pour l’instant, contient .gitkeep)
+└── docs/ # (vide pour l’instant, contient .gitkeep)
 
 ---
 
