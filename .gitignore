@@ -2,12 +2,20 @@
 *.log
 *.tmp
 
-# Dossiers système
+# Dossiers système générés par Vagrant
 .vagrant/
 
-# Dossiers des machines virtuelles VirtualBox
+# Fichiers de machines virtuelles VirtualBox
 *.vbox
 *.vdi
 
-# Dossiers de backup locaux
+# Dossiers locaux de sauvegarde
 backup/
+
+# Fichiers d’environnement (à adapter si tu en utilises)
+*.env
+
+# Fichiers secrets ou clés (ajoute ici si besoin)
+# config/secrets.yml
+# *.key
+# *.pem
