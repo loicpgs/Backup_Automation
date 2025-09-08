@@ -32,14 +32,14 @@ backup-automation/
 
 ## 🚀 Lancement
 
-```bash
-vagrant up         # Démarre la VM
-vagrant ssh        # Se connecter à la VM
 
-💡 Exemple de crontab
+vagrant up          **Démarre la VM**
+vagrant ssh        **Se connecter à la VM**
+
+# 💡 Exemple de crontab
 
 0 2 * * * /home/vagrant/backup-automation/scripts/backup.sh
 
-📄 Licence
+# 📄 Licence
 
 MIT
