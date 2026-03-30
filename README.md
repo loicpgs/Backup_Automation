@@ -1,14 +1,14 @@
 
-backup-automation
+# Backup-automation 
 
 Projet d'automatisation de sauvegardes locales avec Vagrant et Bash  
 Environnement isolé sous Ubuntu 18.04 via Vagrant  
- Sauvegarde automatique de répertoires configurables  
+Sauvegarde automatique de répertoires configurables  
 Planification via cron (sauvegardes régulières)
 
 
 
- Technologies utilisées
+ ## Technologies utilisées
 
  Ubuntu 18.04 (via Vagrant)
  Bash scripting
@@ -16,7 +16,7 @@ Planification via cron (sauvegardes régulières)
  VirtualBox
 
 
-Structure du projet
+ ## Structure du projet
 
 backup-automation/
 ├── .gitignore
@@ -29,16 +29,18 @@ backup-automation/
 
 
 
-Lancement
+## Lancement
 
 
 vagrant up          **Démarre la VM**
+
 vagrant ssh        **Se connecter à la VM**
 
-Exemple de crontab
+
+## Exemple de crontab
 
 0 2 * * * /home/vagrant/backup-automation/scripts/backup.sh
 
-Licence
+## Licence
 
 MIT
