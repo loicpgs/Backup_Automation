@@ -12,10 +12,10 @@
 # Dossiers locaux de sauvegarde
 backup/
 
-# Fichiers d’environnement (à adapter si tu en utilises)
+# Fichiers d’environnement 
 *.env
 
-# Fichiers secrets ou clés (ajoute ici si besoin)
+# Fichiers secrets ou clés 
 # config/secrets.yml
 # *.key
 # *.pem
